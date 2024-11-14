@@ -58,6 +58,7 @@
     transform: scale(1.1);
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: -10px;
 
 
 }
@@ -75,29 +76,44 @@
 
 .img-adjust {
     max-width: 30%;
-    margin-left: 43%;
-    margin-bottom: -20%;
+    margin-left: 49%;
+    margin-bottom: -23%;
+
+}
+
+.img-adjust4 {
+    max-width: 55%;
+    margin-left: 20%;
+    margin-bottom: -28%;
+
+}
+
+.img-adjust5 {
+    max-width: 20%;
+    margin-left: 45%;
+    margin-bottom: -7%;
 
 }
 
 .img-adjust1 {
-    max-width: 60%;
+    max-width: 70%;
     margin-left: 0%;
-    margin-bottom: -35%;
+    margin-top: -3%;
+
 
 
 
 }
 
 .img-adjust2 {
-    max-width: 40%;
-    margin-left: 33%;
-    margin-bottom: -25%;
+    max-width: 45%;
+    margin-left: 43%;
+    margin-bottom: -30%;
 }
 
 .img-adjust3 {
-    max-width: 30%;
-    margin-top: -5%;
+    max-width: 60%;
+    margin-top: -3%;
 }
 
 .pic-set img {
