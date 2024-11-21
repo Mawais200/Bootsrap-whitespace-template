@@ -78,6 +78,557 @@
         background-repeat: no-repeat;
     }
 
+    .card1 {
+        width: 472px;
+        height: 480px;
+    }
+
+
+
+
+
+
+}
+
+@media (min-width: 1440px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1400px;
+    }
+
+    .bd-placeholder-img {
+        height: 456px;
+        width: 685px;
+    }
+
+    .featurette-heading {
+        font-weight: 700;
+        font-size: 72px;
+    }
+
+    .sec img {
+        height: 542px;
+        width: 583px;
+    }
+
+    .combine img {
+        height: 381px;
+        width: 681px;
+    }
+
+    .bg-pic img {
+        display: flex;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img1 {
+        width: 55px;
+        height: 68px;
+
+    }
+
+    .card1 {
+        width: 437px;
+        height: 480px;
+    }
+
+    .img2 {
+        width: 287px;
+        height: 62px;
+    }
+
+    .img3 {
+        width: 280px;
+        height: 71px;
+    }
+
+    .img4 {
+        width: 211px;
+        height: 69px;
+    }
+
+    .apps img {
+        height: 470px;
+        width: 582px;
+    }
+
+    .lead2 {
+        padding: 16px 100px 16px 100px;
+    }
+
+    .blue2 {
+        background-image: url('BACKGROUND.png');
+        background-position: 0cm;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1152px) {
+    .bd-placeholder-img {
+        width: 526px;
+        height: 350px;
+    }
+
+    .featurette-heading {
+        font-weight: 700;
+        font-size: 64px;
+    }
+
+    .sec img {
+        height: 491px;
+        width: 528px;
+    }
+
+    .lead1 {
+        padding: 0 250px 0 250px;
+    }
+
+    .combine img {
+        height: 314px;
+        width: 562px;
+    }
+
+    .img1 {
+        width: 55px;
+        height: 68px;
+
+    }
+
+    .img2 {
+        width: 287px;
+        height: 62px;
+    }
+
+    .img3 {
+        width: 280px;
+        height: 71px;
+    }
+
+    .img4 {
+        width: 211px;
+        height: 69px;
+    }
+
+    .apps img {
+        height: 427px;
+        width: 528px;
+    }
+
+    .lead2 {
+        padding: 16px 115px 16px 115px;
+    }
+
+    .blue2 {
+        background-image: url('BACKGROUND.png');
+        background-position: 0cm;
+        background-repeat: no-repeat;
+    }
+
+    .card1 {
+        width: 341px;
+        height: 430px;
+        padding: 60px 40px 60px 40px;
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .featurette-heading {
+        font-size: 36px;
+    }
+
+    .bd-placeholder-img {
+        width: 286px;
+        height: 191px;
+    }
+
+    .first {
+        display: block;
+        text-align: center;
+    }
+
+    .sec img {
+        height: 259px;
+        width: 279px;
+    }
+
+    .combine img {
+        height: 162px;
+        width: 290px;
+    }
+
+    .bg-pic img {
+        display: none;
+    }
+
+    .img1 {
+        width: 55px;
+        height: 68px;
+        margin-bottom: 50px;
+
+    }
+
+    .img2 {
+        width: 213px;
+        height: 46px;
+        margin-bottom: 50px;
+    }
+
+    .img3 {
+        width: 192px;
+        height: 49px;
+        margin-bottom: 50px;
+        ;
+    }
+
+    .img4 {
+        width: 139px;
+        height: 46px;
+        margin-bottom: 50px;
+    }
+
+    .apps img {
+        height: 231px;
+        width: 286px;
+    }
+
+    .card1 {
+        width: 341px;
+        height: 430px;
+        padding: 60px 40px 60px 40px;
+
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .featurette-heading {
+        font-size: 54px;
+    }
+
+    .bd-placeholder-img {
+        width: 551px;
+        height: 367px;
+    }
+
+    .sec img {
+        height: 454px;
+        width: 422px;
+    }
+
+    .combine img {
+        height: 287px;
+        width: 513px;
+    }
+
+
+
+    .apps img {
+        height: 392px;
+        width: 485px;
+    }
+
+    .lead2 {
+        padding: 16px 120px 16px 0;
+    }
+
+    .blue2 {
+        background-image: url('BACKGROUND.png');
+        background-position: 0cm;
+        background-repeat: no-repeat;
+    }
+
+    .card1 {
+        width: 341px;
+        height: 430px;
+        padding: 60px 40px 60px 40px;
+    }
+
+
+
+
+
+
+}
+
+@media(min-width: 992px) and (max-width:1152px) {
+    .featurette-heading {
+        font-size: 64px;
+    }
+
+    .card1 {
+        width: 341px;
+        height: 430px;
+        padding: 60px 40px 60px 40px;
+    }
+
+}
+
+
+
+
+
+.card:hover {
+    color: #043873;
+    border: none;
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    transform: scale(1.1);
+    margin-left: 25px;
+    margin-right: 25px;
+    max-width: 95%;
+
+
+}
+
+.card {
+
+
+    border: 1px solid gold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    height: 100%;
+    max-width: 94%;
+
+
+}
+
+.img-adjust {
+    max-width: 30%;
+    margin-left: 49%;
+    margin-bottom: -23%;
+
+}
+
+.img-adjust4 {
+    max-width: 55%;
+    margin-left: 20%;
+    margin-bottom: -28%;
+
+}
+
+.img-adjust5 {
+    max-width: 20%;
+    margin-left: 45%;
+    margin-bottom: -7%;
+
+}
+
+.img-adjust1 {
+    max-width: 70%;
+    margin-left: 0%;
+    margin-top: -3%;
+
+
+
+
+}
+
+.img-adjust2 {
+    max-width: 45%;
+    margin-left: 43%;
+    margin-bottom: -30%;
+}
+
+.img-adjust3 {
+    max-width: 60%;
+    margin-top: -3%;
+}
+
+.pic-set img {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+
+
+
+
+}
+
+
+
+
+
+
+
+.card:hover .btn {
+    color: white;
+    border: 1px solid #4F9CF9;
+    background-color: #4F9CF9;
+
+    height: 50px;
+    padding: 16px 40px 16px 40px;
+    font-size: 16px;
+    font-weight: 500;
+
+
+
+
+}
+
+.card .btn {
+    border: 1px solid gold;
+    padding: 16px 40px 16px 40px;
+}
+
+.logo img {
+    height: 55px;
+
+}
+
+.blue1 {
+    background-image: url('Element copy 2.png');
+    background-size: contain;
+
+}
+
+.card1 {
+    border: 1px solid #4F9CF9;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #4F9CF9;
+    ;
+    margin-top: 2%;
+    color: white;
+    height: auto;
+
+}
+
+
+
+
+.carousel .btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #4F9CF9;
+}
+
+
+
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+
+    position: relative;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.slider {
+    max-width: 100%;
+}
+
+.nav-link {
+    color: white;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+@media (min-width: 1920px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1480px;
+    }
+
+    .bd-placeholder-img {
+        height: 549px;
+        width: 824px;
+    }
+
+    .featurette-heading {
+        font-weight: 700;
+        font-size: 72px;
+    }
+
+    .sec img {
+        height: 661px;
+        width: 710px;
+    }
+
+    .combine img {
+        height: 381px;
+        width: 681px;
+    }
+
+    .bg-pic img {
+        display: flex;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img1 {
+        width: 55px;
+        height: 68px;
+
+    }
+
+    .img2 {
+        width: 287px;
+        height: 62px;
+    }
+
+    .img3 {
+        width: 280px;
+        height: 71px;
+    }
+
+    .img4 {
+        width: 211px;
+        height: 69px;
+    }
+
+    .apps img {
+        height: 472px;
+        width: 582px;
+    }
+
+    .lead {
+        padding: 16px 300px 16px 300px;
+
+    }
+
+    .blue2 {
+        background-image: url('BACKGROUND.png');
+        background-position: 0cm;
+        background-repeat: no-repeat;
+    }
+
 
 
 
@@ -356,7 +907,7 @@
     transform: scale(1.1);
     margin-left: 25px;
     margin-right: 25px;
-    max-width: 95%;
+    max-width: 88%;
 
 
 }
@@ -364,11 +915,11 @@
 .card {
 
 
-    border: 1px solid gold;
+    border: 1px solid #FFE492;
     border-radius: 5px;
     transition: all 0.3s ease;
     height: 100%;
-    max-width: 94%;
+    max-width: 87%;
 
 
 }
@@ -444,10 +995,11 @@
 
 
 
+
 }
 
 .card .btn {
-    border: 1px solid gold;
+    border: 1px solid #FFE492;
     padding: 16px 40px 16px 40px;
 }
 
@@ -462,23 +1014,9 @@
 
 }
 
-.card1 {
-    border: 1px solid #4F9CF9;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #4F9CF9;
-    ;
-    margin-top: 2%;
-    color: white;
-    height: auto;
 
-}
 
-.card1 .com {
-    margin-top: -15px;
 
-}
 
 
 
