@@ -1,55 +1,353 @@
-.container {
-    width: 100%;
-    margin-right: 10%;
+* {
+    font-family: "Inter", sans-serif;
 }
 
-.navbar-brand {
-    font-weight: bold;
+
+
+
+@media (min-width: 1920px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1480px;
+    }
+
+    .bd-placeholder-img {
+        height: 549px;
+        width: 824px;
+    }
+
+    .featurette-heading {
+        font-weight: 700;
+        font-size: 72px;
+    }
+
+    .sec img {
+        height: 661px;
+        width: 710px;
+    }
+
+    .combine img {
+        height: 381px;
+        width: 681px;
+    }
+
+    .bg-pic img {
+        display: flex;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img1 {
+        width: 55px;
+        height: 68px;
+
+    }
+
+    .img2 {
+        width: 287px;
+        height: 62px;
+    }
+
+    .img3 {
+        width: 280px;
+        height: 71px;
+    }
+
+    .img4 {
+        width: 211px;
+        height: 69px;
+    }
+
+    .apps img {
+        height: 472px;
+        width: 582px;
+    }
+
+    .lead {
+        padding: 16px 300px 16px 300px;
+
+    }
+
+    .blue2 {
+        background-image: url('BACKGROUND.png');
+        background-position: 0cm;
+        background-repeat: no-repeat;
+    }
+
+
+
+
 }
 
-.nav-link {
-    font-weight: 400;
+@media (min-width: 1440px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1400px;
+    }
+
+    .bd-placeholder-img {
+        height: 456px;
+        width: 685px;
+    }
+
+    .featurette-heading {
+        font-weight: 700;
+        font-size: 72px;
+    }
+
+    .sec img {
+        height: 542px;
+        width: 583px;
+    }
+
+    .combine img {
+        height: 381px;
+        width: 681px;
+    }
+
+    .bg-pic img {
+        display: flex;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img1 {
+        width: 55px;
+        height: 68px;
+
+    }
+
+    .img2 {
+        width: 287px;
+        height: 62px;
+    }
+
+    .img3 {
+        width: 280px;
+        height: 71px;
+    }
+
+    .img4 {
+        width: 211px;
+        height: 69px;
+    }
+
+    .apps img {
+        height: 470px;
+        width: 582px;
+    }
+
+    .lead2 {
+        padding: 16px 100px 16px 100px;
+    }
+
+    .blue2 {
+        background-image: url('BACKGROUND.png');
+        background-position: 0cm;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+
 }
 
-.awais h2 {
-    font-weight: 700;
+@media (min-width: 1152px) {
+    .bd-placeholder-img {
+        width: 526px;
+        height: 350px;
+    }
+
+    .featurette-heading {
+        font-weight: 700;
+        font-size: 64px;
+    }
+
+    .sec img {
+        height: 491px;
+        width: 528px;
+    }
+
+    .lead1 {
+        padding: 0 250px 0 250px;
+    }
+
+    .combine img {
+        height: 314px;
+        width: 562px;
+    }
+
+    .img1 {
+        width: 55px;
+        height: 68px;
+
+    }
+
+    .img2 {
+        width: 287px;
+        height: 62px;
+    }
+
+    .img3 {
+        width: 280px;
+        height: 71px;
+    }
+
+    .img4 {
+        width: 211px;
+        height: 69px;
+    }
+
+    .apps img {
+        height: 427px;
+        width: 528px;
+    }
+
+    .lead2 {
+        padding: 16px 115px 16px 115px;
+    }
+
+    .blue2 {
+        background-image: url('BACKGROUND.png');
+        background-position: 0cm;
+        background-repeat: no-repeat;
+    }
+
+
+
 }
 
-.container img {
-    max-width: 100%;
+
+
+
+
+@media (max-width: 767px) {
+    .featurette-heading {
+        font-size: 36px;
+    }
+
+    .bd-placeholder-img {
+        width: 286px;
+        height: 191px;
+    }
+
+    .first {
+        display: block;
+        text-align: center;
+    }
+
+    .sec img {
+        height: 259px;
+        width: 279px;
+    }
+
+    .combine img {
+        height: 162px;
+        width: 290px;
+    }
+
+    .bg-pic img {
+        display: none;
+    }
+
+    .img1 {
+        width: 55px;
+        height: 68px;
+        margin-bottom: 50px;
+
+    }
+
+    .img2 {
+        width: 213px;
+        height: 46px;
+        margin-bottom: 50px;
+    }
+
+    .img3 {
+        width: 192px;
+        height: 49px;
+        margin-bottom: 50px;
+        ;
+    }
+
+    .img4 {
+        width: 139px;
+        height: 46px;
+        margin-bottom: 50px;
+    }
+
+    .apps img {
+        height: 231px;
+        width: 286px;
+    }
+
+
 }
 
-.heading {
-    margin-top: 13%;
-    color: black;
+@media (min-width: 768px) and (max-width: 991px) {
+    .featurette-heading {
+        font-size: 54px;
+    }
+
+    .bd-placeholder-img {
+        width: 551px;
+        height: 367px;
+    }
+
+    .sec img {
+        height: 454px;
+        width: 422px;
+    }
+
+    .combine img {
+        height: 287px;
+        width: 513px;
+    }
+
+
+
+    .apps img {
+        height: 392px;
+        width: 485px;
+    }
+
+    .lead2 {
+        padding: 16px 120px 16px 0;
+    }
+
+    .blue2 {
+        background-image: url('BACKGROUND.png');
+        background-position: 0cm;
+        background-repeat: no-repeat;
+    }
+
+
+
+
 
 
 }
 
-.col-12 .col-md-3 .img1,
-.img2,
-.img3 {
-    height: 10px;
-    max-width: 100%;
+@media(min-width: 992px) and (max-width:1152px) {
+    .featurette-heading {
+        font-size: 64px;
+    }
+
 
 }
 
-.row h1 {
 
-    margin-top: 14%;
-    font-weight: 700;
-    font-size: 72px;
 
-}
 
-.row p {
-    font-weight: 400;
-
-    font-size: 18px;
-    line-height: 30px;
-
-    align-items: Center;
-}
 
 .card:hover {
     color: #043873;
@@ -58,7 +356,7 @@
     transform: scale(1.1);
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: -10px;
+    max-width: 95%;
 
 
 }
@@ -69,7 +367,8 @@
     border: 1px solid gold;
     border-radius: 5px;
     transition: all 0.3s ease;
-    height: 110%;
+    height: 100%;
+    max-width: 94%;
 
 
 }
@@ -126,22 +425,30 @@
 
 }
 
-.cnetr {
 
-    margin-left: -8%;
-}
+
+
 
 
 
 .card:hover .btn {
     color: white;
     border: 1px solid #4F9CF9;
-
     background-color: #4F9CF9;
 
+    height: 50px;
+    padding: 16px 40px 16px 40px;
+    font-size: 16px;
+    font-weight: 500;
 
 
 
+
+}
+
+.card .btn {
+    border: 1px solid gold;
+    padding: 16px 40px 16px 40px;
 }
 
 .logo img {
@@ -164,15 +471,14 @@
     ;
     margin-top: 2%;
     color: white;
-    height: 480px;
-    max-width: 23rem;
+    height: auto;
+
 }
 
 .card1 .com {
-    margin-top: -20px;
+    margin-top: -15px;
+
 }
-
-
 
 
 
@@ -185,9 +491,7 @@
 
 
 
-.nav-link {
-    color: white;
-}
+
 
 
 .carousel-control-prev,
@@ -201,4 +505,12 @@
     justify-content: center;
     gap: 50px;
 
+}
+
+.slider {
+    max-width: 100%;
+}
+
+.nav-link {
+    color: white;
 }
